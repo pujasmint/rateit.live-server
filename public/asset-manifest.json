@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b994ae32.chunk.css",
+    "main.js": "/static/js/main.9e596fa6.chunk.js",
+    "main.js.map": "/static/js/main.9e596fa6.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.96f83eec.js",
+    "runtime~main.js.map": "/static/js/runtime~main.96f83eec.js.map",
+    "static/css/2.39d64e98.chunk.css": "/static/css/2.39d64e98.chunk.css",
+    "static/js/2.5b571f49.chunk.js": "/static/js/2.5b571f49.chunk.js",
+    "static/js/2.5b571f49.chunk.js.map": "/static/js/2.5b571f49.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bf192c2872b50cc4dd8f3e9662c7c4fc.js": "/precache-manifest.bf192c2872b50cc4dd8f3e9662c7c4fc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.39d64e98.chunk.css.map": "/static/css/2.39d64e98.chunk.css.map",
+    "static/css/main.b994ae32.chunk.css.map": "/static/css/main.b994ae32.chunk.css.map",
+    "static/media/audience.jpg": "/static/media/audience.1db0dbe7.jpg",
+    "static/media/primereact.min.css": "/static/media/line.567f5738.gif",
+    "static/media/theme.css": "/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/presenter.jpg": "/static/media/presenter.a4777958.jpg",
+    "static/media/primeicons.css": "/static/media/primeicons.e5e0e944.svg",
+    "static/media/rateitlogo.png": "/static/media/rateitlogo.725e37e8.png",
+    "static/media/ws.mp4": "/static/media/ws.56bd8005.mp4"
+  }
+}

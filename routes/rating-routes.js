@@ -5,7 +5,7 @@ const Session = require("../models/session-model");
 const SessionRating = require("../models/session-rating-model");
 
 router.post("/user", function(req, res, next) {
-  Session.findOne({ invitekey: req.body.invitekey })
+  Session.findOne({ invitekey: req.body.invitekey.toUpperCase() })
     .populate("creator")
     .then(session => {
       Rating.findOne({ fp: req.body.fp, session: session._id }, function(
@@ -26,7 +26,7 @@ router.post("/user", function(req, res, next) {
 });
 
 router.post("/update", function(req, res, next) {
-  Session.findOne({ invitekey: req.body.invitekey }, (err, session) => {
+  Session.findOne({ invitekey: req.body.invitekey.toUpperCase() }, (err, session) => {
     if (err) {
       res.status(500).json({ session, rating: null });
     } else {
